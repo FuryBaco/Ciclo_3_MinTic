@@ -1,0 +1,9 @@
+<version>${project.parent.version}</version>
+
+Se añade en el archivo pom.xml quedando asi:
+
+<plugin>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-maven-plugin</artifactId>
+	<version>${project.parent.version}</version>
+</plugin>
